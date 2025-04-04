@@ -25,6 +25,6 @@ if (experiencia < 1000) {
 }
 
 // Saída da mensagem final
-console.log(
-O Herói de nome ${nome} está no nível de ${nivel}
+console.log("
+O Herói de nome ${nome} está no nível de ${nivel}"
 );
