@@ -1,5 +1,5 @@
 // Variáveis para armazenar o nome e a quantidade de experiência do herói
-let nome = "Heroi Exemplo"; // Nome do herói
+let nome = 'Heroi Exemplo'; // Nome do herói
 let experiencia = 7500; // Quantidade de XP do herói
 
 // Variável para armazenar o nível do herói
@@ -25,6 +25,4 @@ if (experiencia < 1000) {
 }
 
 // Saída da mensagem final
-console.log("
-O Herói de nome ${nome} está no nível de ${nivel}"
-);
+console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
